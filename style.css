@@ -1,0 +1,148 @@
+ul {
+  /* this ll help you to make remove default space of margin*/
+  padding: 0mm;
+  margin: 0px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-family: "Architects Daughter", cursive;
+  background-color: aliceblue;
+  color: blue;
+}
+/* Css for header   */
+/* this header css gives backround black */
+.header {
+  background-color: gray;
+  padding: 25px 0;
+}
+.container {
+  max-width: 2465px;
+  margin: 0 auto;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-between; /* this ll help you to five space in between */
+  flex-wrap: wrap; /*this will make my small down picture to move down there maintain some space*/
+}
+.logo {
+  flex-basis: 15%;
+  outline-color: 1px black;
+}
+.navbar {
+  flex-basis: 25%;
+  outline-color: 1px black;
+}
+.logo a {
+  /* make logo into middle */
+  padding: 20px;
+  display: inline-block;
+}
+.navbar ul {
+  /* removes the bullet point the list*/
+  list-style: none;
+  display: flex;
+  justify-content: center; /* push list word in to last and keepts in row */
+  /*   justify-content: space-between; this code if it was presnt
+  it would give space between thoes link which is in adjustline of logo LINK */
+}
+/* this css will give look to link which is kept upside in blue */
+.navbar ul a {
+  background-color: blue;
+  color: yellow;
+  text-decoration: none;
+  padding: 30px;
+  display: inline-block;
+}
+.distance {
+  margin: 55px 0px;
+}
+.flex-3-column {
+  flex-basis: 30.76%;
+}
+h3 {
+  font-size: 14px;
+  margin: 15px 0;
+}
+.read-more,
+.read-more a {
+  color: orangered;
+  text-decoration: none;
+  position: relative;
+}
+p {
+  margin: 15px 0;
+}
+.read-more a::after {
+  font-family: FontAwesome;
+  content: "\f101";
+  position: absolute;
+  top: 1px;
+  right: -35px;
+}
+.flex-half-column {
+  flex-basis: 48%;
+}
+h1 {
+  color: yellow;
+}
+/* footer css*/
+.flex-top {
+  background-color: white;
+  padding: 30px 0;
+}
+.flex-4-column {
+  flex-basis: 12%;
+  display: flexbox;
+}
+.h4 {
+  color: white;
+  margin: 15px 0;
+}
+/* this footer is for tht linkblock to keep  */
+.footer-top ul {
+  /* this one actually give types of bullet points */
+  list-style: none;
+}
+.footer-top ul li a {
+  color: pink;
+  text-decoration: none;
+}
+.footer-top ul li {
+  marker: 0 0 5px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid black;
+}
+/* this css is for tht copy write conatiner */
+.footer-bottom {
+  background-color: greenyellow;
+  color: black;
+}
+.created-by {
+  text-align: right;
+}
+/* mobile friendly */
+@media (max-width: 762px) {
+  .flex-box {
+    flex-direction: column;
+  }
+  .header {
+    text-align: center;
+  }
+  .header,
+  .navbar ul,
+  .created-by {
+    text-align: center;
+  }
+  .container {
+    padding: 0 25px;
+  }
+  .navbar {
+    justify-content: center;
+  }
+  .mobile {
+    cursor: pointer;
+  }
+}
