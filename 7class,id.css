@@ -1,0 +1,33 @@
+/* this class  */
+.FirstDiv {
+  color: blueviolet;
+}
+.SecondDiv {
+  color: brown;
+}
+/* this id */
+#singleout {
+  color: darkolivegreen;
+  text-decoration: line-through;
+}
+h3 + ul {
+  border: 4px dotted greenyellow;
+}
+/* here i have taken (li a) because the anchor tag is inside
+ li soo to make css clear address on html i have to write (li a)*/
+li a {
+  color: red;
+}
+/*  for attribute */
+li a[href="anusha.com"] {
+  color: gold;
+}
+body {
+  background-color: black;
+}
+li {
+  color: white;
+}
+h3 {
+  color: aliceblue;
+}

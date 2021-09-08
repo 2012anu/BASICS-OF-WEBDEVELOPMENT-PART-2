@@ -1,0 +1,30 @@
+td {
+  background-color: black;
+  height: 200px;
+  width: 144px;
+  border: 6px solid white;
+}
+.art {
+  margin: 35px;
+  padding: 35px;
+}
+h4 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: larger;
+}
+#one {
+  background-color: blue;
+}
+#two {
+  background-color: blueviolet;
+}
+#three {
+  background-color: brown;
+}
+#four {
+  background-color: crimson;
+}
+#five {
+  background-color: green;
+}

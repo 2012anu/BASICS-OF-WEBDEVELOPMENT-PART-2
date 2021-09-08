@@ -1,0 +1,18 @@
+/* this will give entire body colur aqua */
+body {
+  background-color: aqua;
+}
+/* this will make only change in div tag */
+div {
+  background-color: black;
+  border-width: 1opx;
+  border-color: brown;
+  border-style: dashed;
+}
+p {
+  color: rgb(255, 81, 0);
+}
+/* this made only the span tag green */
+span {
+  color: darkgreen;
+}

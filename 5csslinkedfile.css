@@ -1,0 +1,17 @@
+/* syntax for this is 
+sected tag { property} */
+
+p {
+  color: blue;
+}
+
+li {
+  color: brown;
+}
+h1 {
+  background-color: blue;
+}
+/* this below tag make h4 tag thing to sit anywhwere in the line */
+h4 {
+  margin-inline-start: 4cm;
+}
